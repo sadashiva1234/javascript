@@ -1,0 +1,5 @@
+#!  /bin/bash
+sudo yum  update –y
+sudo yum install  apache  -y
+cd  /var/www/html/
+echo “hai “ >index.html
